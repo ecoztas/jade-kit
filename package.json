@@ -1,0 +1,15 @@
+{
+  "name": "jade-kit",
+  "version": "1.0.0",
+  "description": "Jade Project Structure",
+  "main": "index.js",
+  "repository": "https://github.com/ecoztas/jade-kit",
+  "author": "Emre Can ÖZTAŞ <me@emrecanoztas.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-jade": "^1.1.0",
+    "s": "^0.1.1"
+  }
+}
