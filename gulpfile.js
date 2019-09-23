@@ -15,9 +15,11 @@ gulp.task('default', function () {
 
 // TASK: JADE
 gulp.task('jade', function () {
-    gulp.src('./view/*.jade')
-        .pipe(jade({
-            pretty: true
-        }))
-        .pipe(gulp.dest('./'))
+    return (
+        gulp.src('./view/*.jade')
+            .pipe(jade({
+                pretty: true
+            }))
+            .pipe(gulp.dest('./'))
+    );
 });
